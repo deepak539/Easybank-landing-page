@@ -1,0 +1,17 @@
+@import '../config';
+
+.list-item{
+  cursor: pointer;
+
+  @media (max-width: 540px) {
+    margin-left: 1em;
+  }
+
+  &:hover{
+    svg{
+      path{
+        fill: $Lime-Green;
+      }
+    }
+  }
+}

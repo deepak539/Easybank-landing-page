@@ -1,0 +1,52 @@
+@import '../config';
+
+.content{
+  // background: red;
+  width: 380px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: 760px) {
+    order: 1;
+    width: 100%;
+    text-align: center;
+    padding: 1.5em;
+    margin: 0;
+  }
+
+  // @media (max-width: 540px) {
+  //   padding: 2em 1em;
+  // }
+
+  &-title{
+    color: $Dark-Blue;
+    font-size: 3rem;
+    font-weight: 400;
+
+    @media (max-width: 540px) {
+      font-size: 2rem;
+    }
+  }
+
+  &-info{
+    margin-top: 1.5em;
+    font-size: 1rem;
+    color: $Grayish-Blue;
+
+    @media (max-width: 540px) {
+      margin-top: 1em;
+      font-size: .9rem;
+    }
+  }
+}
+
+#content-request{
+  margin-top: 2em;
+
+  @media (max-width: 760px) {
+    display: block;
+    margin: 2em auto;
+  }
+}

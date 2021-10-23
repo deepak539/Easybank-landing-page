@@ -1,0 +1,27 @@
+@import '../config';
+
+.reason-item{
+  // background: navy;
+  padding: 2em;
+
+  @media (max-width: 760px) {
+    text-align: center;
+    padding: 1em;
+  }
+
+  &-icon{
+    width: 2.5em;
+  }
+
+  &-title{
+    margin-top: 1em;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+  &-content{
+    margin-top: 1.5em;
+    font-size: .85rem;
+    color: $Grayish-Blue;
+  }
+}

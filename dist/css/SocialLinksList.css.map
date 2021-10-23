@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,yFAAI;AAiBZ,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,QAAQ,CAAA;EACP,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,EAAE,CAAA;EACA,eAAe,EAAE,IAAI;CACtB;;ADzBD,AAAA,kBAAkB,CAAA;EAChB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,UAAU,EAAE,GAAG;CAKhB",
+    "sources": [
+        "../../src/Components/Footer/SocialLinksList.scss",
+        "../../src/Components/_config.scss"
+    ],
+    "names": [],
+    "file": "SocialLinksList.css"
+}

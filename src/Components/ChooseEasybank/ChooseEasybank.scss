@@ -1,0 +1,36 @@
+@import "../config";
+
+.choose-easybank {
+  // background: orange;
+  background: $Light-Grayish-Blue;
+  padding: 5em;
+
+  @media (max-width: 760px) {
+    padding: 1em;
+  }
+}
+
+.easybank {
+  // background: burlywood;
+  width: 480px;
+  margin-left: 2em;
+
+
+  @media (max-width: 760px) {
+    width: 100%;
+    text-align: center;
+    margin: 1.5em 0;
+  }
+
+  &-question {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  &-answer {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: $Grayish-Blue;
+    margin-top: 1em;
+  }
+}

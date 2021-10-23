@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.choose-easybank {
+  background: #f3f4f6;
+  padding: 5em;
+}
+
+@media (max-width: 760px) {
+  .choose-easybank {
+    padding: 1em;
+  }
+}
+
+.easybank {
+  width: 480px;
+  margin-left: 2em;
+}
+
+@media (max-width: 760px) {
+  .easybank {
+    width: 100%;
+    text-align: center;
+    margin: 1.5em 0;
+  }
+}
+
+.easybank-question {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.easybank-answer {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #9698a6;
+  margin-top: 1em;
+}
+/*# sourceMappingURL=ChooseEasybank.css.map */

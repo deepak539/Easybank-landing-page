@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.article-card {
+  background: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px 5px #f3f4f6;
+          box-shadow: 0 0 5px 5px #f3f4f6;
+}
+
+.article-card-img {
+  max-width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.article-card-info {
+  padding: 1em;
+}
+
+.article-card-info-author {
+  margin: .5em 0 .7em 0;
+  font-size: .8rem;
+  font-weight: 800;
+  color: #9698a6;
+}
+
+.article-card-info-headline {
+  color: #2d314d;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.article-card-info-content {
+  margin-top: .7em;
+  color: #9698a6;
+  font-size: .75rem;
+}
+/*# sourceMappingURL=ArticlesCards.css.map */

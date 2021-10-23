@@ -1,0 +1,11 @@
+@import '../config';
+
+.social-links-list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+
+  @media (max-width: 540px) {
+    // justify-content: unset;
+  }
+}

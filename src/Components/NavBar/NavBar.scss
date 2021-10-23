@@ -1,0 +1,77 @@
+@import "../config";
+
+.navbar {
+  // background: greenyellow;
+
+  @media (max-width: 760px) {
+    display: none;
+  }
+}
+
+
+.navlist {
+  // background: yellow;
+  display: flex;
+  margin-top: 0.55em;
+
+  @media (max-width: 760px) {
+    display: none;
+  }
+
+  &-item {
+    // background: darkmagenta;
+    margin: 0 0.8em;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: $Grayish-Blue;
+    position: relative;
+
+
+    &::after {
+      content: "";
+      width: 35px;
+      height: 3px;
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      background: $Lime-Green;
+      opacity: 0;
+    }
+
+    &:hover::after {
+      opacity: 1;
+    }
+  }
+}
+
+.mobo-navbar {
+  background: $White;
+  width: 95%;
+  min-width: 275px;
+  max-width: 500px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  border-radius: 8px;
+  z-index: 9;
+
+  .navlist{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    &-item{
+      margin: 0.8em;
+      color: $Dark-Blue;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-nav-lists {
+  padding: 0 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 630px) {
+  .footer-nav-lists {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+  }
+}
+
+.list-1,
+.list-2 {
+  margin-top: 1.5em;
+}
+
+.list-1-item,
+.list-2-item {
+  cursor: pointer;
+  margin-top: 1em;
+  color: #f3f4f6;
+}
+
+.list-1-item:hover,
+.list-2-item:hover {
+  color: #31d35c;
+}
+/*# sourceMappingURL=NavigationLinks.css.map */

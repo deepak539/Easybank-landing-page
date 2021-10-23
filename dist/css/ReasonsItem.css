@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.reason-item {
+  padding: 2em;
+}
+
+@media (max-width: 760px) {
+  .reason-item {
+    text-align: center;
+    padding: 1em;
+  }
+}
+
+.reason-item-icon {
+  width: 2.5em;
+}
+
+.reason-item-title {
+  margin-top: 1em;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.reason-item-content {
+  margin-top: 1.5em;
+  font-size: .85rem;
+  color: #9698a6;
+}
+/*# sourceMappingURL=ReasonsItem.css.map */

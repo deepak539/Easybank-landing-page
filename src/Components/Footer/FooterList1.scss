@@ -1,0 +1,23 @@
+@import '../config';
+
+.list-1{
+  // background: bisque;
+  margin: .5em;
+  min-width: 100px;
+  color: $Light-Grayish-Blue;
+
+  @media (max-width: 540px) {
+    margin: 0;
+    text-align: center;
+  }
+
+  &-item{
+    font-size: 1rem;
+    margin-top: .7em;
+    cursor: pointer;
+
+    &:hover{
+      color: $Lime-Green;
+    }
+  }
+}
